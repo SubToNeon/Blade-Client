@@ -59,13 +59,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Player Outline ESP",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "More Futures Coming Soon!",
 	Callback = function()
       		print("More Futures Coming Soon!")
@@ -516,7 +509,7 @@ local NowSection = NowTab:AddSection({
 })
 
 NowTab:AddButton({
-	Name = "Made by Neon",
+	Name = "Script Made by Neon!",
 	Callback = function()
       		print("Made by Neon")
   	end    
